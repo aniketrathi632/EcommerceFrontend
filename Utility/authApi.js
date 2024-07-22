@@ -12,7 +12,7 @@ const apiSlice = createApi({
         url: "/login",
         method: "POST",
         body: data,
-        mode: 'no-cors',
+        
       }),
     }),
     signup: builder.mutation({
@@ -20,7 +20,7 @@ const apiSlice = createApi({
         url: "/signup",
         method: "POST",
         body: data,
-        mode: 'no-cors',
+        
       }),
     }),
     update: builder.mutation({
