@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 const apiSlice = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://ecommercebackend1411.netlify.app/users",
+    baseUrl: "https://backend-1-p0r1.onrender.com/users",
     credentials: "include",
   }),
   endpoints: (builder) => ({
